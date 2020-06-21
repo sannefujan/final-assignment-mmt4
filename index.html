@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/7.7.6/video-js.css" rel="stylesheet">
+    <title>Code4Kids</title>
+</head>
+
+<body>
+    <div class= "clear"></div>
+<header>
+<nav class= "clear">
+    <img id="logo" alt="logo" src="img/logo@2x.png">
+    <ul>
+     <li> 
+        <a class="dark-mode" href="#">over ons</a>
+        <a class="dark-mode" href="#">lesmateriaal</a>
+        <a class="dark-mode" href="#">contact</a>
+    </li>
+    </ul>
+    <a id="theme"><img alt="theme-switch" src="img/switch@2x.png"></a>
+  
+</nav> 
+
+<section id="begin" class="clear">
+    <h1>Van beginner naar expert<br>Het lesmateriaal brengt je verder</h1>
+    <p id="inleiding">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br>Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies<br>vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis<br>lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+</section>
+
+<section id="blok"  class= "clear">
+    <div class="leer">
+    <img alt="leer" src="img/leer@2x.png">
+    <a class="blok-text" href="#">Leer</a></div>
+   
+    <div class="leer">
+    <img alt="codeer" src="img/codeer@2x.png">
+    <a class="blok-text"href="#">Codeer</a></div>
+    
+    <div class="leer">
+    <img alt="speel" src="img/speel@2x.png">
+    <a class="blok-text" href="#">Speel</a></div>
+</section>
+
+</header>
+
+<main>
+<h2>Playlist</h2>
+<section id="accordion">
+
+<h3>Algemene introductie</h3>
+    <div class="accordion">
+    <a href="#" class="btn btn-right"><img class="btn-img" alt="rewindright" src="img/rewindright@2x.png"></a>
+    <a href="#" class="btn btn-play"  id="play0"><img class="btn-img" id="playbtn" alt="play" src="img/play@2x.png"></a>
+    <a href="#" class="btn btn-left"><img class="btn-img" alt="rewindleft" src="img/rewindleft@2x.png"></a>
+
+    <video controls id="video1" class="video-js" data-setup='{ "controls": false, "autoplay": ""}'>
+    <source src="video/video1.mp4" type="video/mp4"/>
+    <source src="video/video1.webm" type="video/mov">
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that</p>
+</video></div>
+   
+<h3>Workshop 1: Kleuren met code</h3>
+    <div class="accordion">
+    <a href="#" class="btn btn-right"><img class="btn-img" alt="rewindright" src="img/rewindright@2x.png"></a>
+    <a href="#" class="btn btn-play"><img class="btn-img" id="playbtn" alt="play" src="img/play@2x.png"></a>
+    <a href="#" class="btn btn-left"><img class="btn-img" alt="rewindleft" src="img/rewindleft@2x.png"></a>
+    
+    <video controls id="video2" class="video-js"  data-setup='{ "controls": false, "autoplay": ""}'>
+    <source src="video/video2.mp4" type="video/mp4">
+    <source src="video/video2.mp4" type="video/mov">
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that</p>
+</video></div>
+   
+<h3>Workshop 2: Vormen maken</h3>
+    <div class="accordion"> 
+    <a href="#" class="btn btn-right"><img class="btn-img" alt="rewindright" src="img/rewindright@2x.png"></a>
+    <a href="#" class="btn btn-play"><img class="btn-img" id="playbtn" alt="play" src="img/play@2x.png"></a>
+    <a href="#" class="btn btn-left"><img class="btn-img" alt="rewindleft" src="img/rewindleft@2x.png"></a>
+            
+    <video  controls id="video3" class="video-js"  data-setup='{ "controls": false, "autoplay": ""}'>
+    <source src="video/video3.mp4" type="video/mp4">
+    <source src="video/video3.mp4" type="video/mov">
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that </p>
+</video></div>
+   
+<h3>Workshop 3: Beweging</h3>
+    <div class="accordion">  
+    <a href="#" class="btn btn-right"><img class="btn-img" alt="rewindright" src="img/rewindright@2x.png"></a>
+    <a href="#" class="btn btn-play"><img class="btn-img" id="playbtn" alt="play" src="img/play@2x.png"></a>
+    <a href="#" class="btn btn-left"><img class="btn-img" alt="rewindleft" src="img/rewindleft@2x.png"></a>
+              
+    <video controls id="video4" class="video-js" data-setup='{ "controls": false, "autoplay": ""}'>
+    <source src="video/video4.mp4" type="video/mp4">
+    <source src="video/video4.mp4" type="video/mov">
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that</p>
+</video></div>
+   
+<h3>Workshop 4: Variabelen gebruiken</h3>
+    <div class="accordion"> 
+    <a class="btn"><img class="btn-img" alt="rewindleft" src="img/rewindright@2x.png"></a>
+    <a class="btn btn-play"><img class="btn-img" id="playbtn" alt="play" src="img/play@2x.png"></a>
+    <a class="btn"><img class="btn-img" alt="play" src="img/rewindleft@2x.png"></a>
+               
+    <video controls id="video5"class="video-js" data-setup='{ "controls": false, "autoplay": ""}'>
+    <source src="video/video5.mp4" type="video/mp4">
+    <source src="video/video5.mp4" type="video/mov">
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that</p>
+</video></div>          
+</section>
+    
+
+<section id="support">
+    <h6>Support</h6>
+    <p id="studenten">onze studenten staan voor je klaar. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+    <div id="calltoaction"> <a id="contact" href="#">naar contact</a></div>
+</section>
+
+<section id="team">
+<div class="achtergrond">
+    <img alt="Alina Kovalchuk" src="img/alina@2x.jpg">
+    <h4 class="naam">Alina Kovalchuk</h4>
+    <p class="supporter">Hoofd support</p>
+    <div class="klik"><a class="mail" href="#">Mail</a></div>
+</div>
+       
+<div class="achtergrond">
+    <img alt="Gorgie Encinas" src="img/gorgie@2x.jpg">
+    <h4 class="naam">Gorgie Encinas</h4>
+    <p class="supporter">Hoofd support</p>
+    <div class="klik"><a class="mail" href="#">Mail</a></div>
+</div>
+
+<div class="achtergrond">
+    <img alt="Kal Visuals" src="img/kal@2xjpg.jpg">
+    <h4 class="naam">Kal Visuals</h4>
+    <p class="supporter">Hoofd support</p>
+    <div class="klik"><a class="mail" href="#">Mail</a></div>
+    </div>
+<div class="achtergrond">
+    <img alt="Norman Toth" src="img/norman@2x.jpg">
+    <h4 class="naam">Norman Toth</h4>
+    <p class="supporter">Hoofd support</p>
+    <div class="klik"><a class="mail" href="#">Mail</a></div>
+</div>
+</section>
+
+
+</main>
+
+<footer>
+<section id="footer">
+    <h5>Klaar voor de volgende<br>uitdaging?</h5>
+    <p id="footer-text">In ons expertprogramma vind je lessen voor gevorderden</p>
+    <div id="footer-klik"><a id="kom" href="#">Kom maar op</a></div> 
+     
+</section>
+</footer>
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://vjs.zencdn.net/7.7.6/video.js"></script> 
+<script src="js/main.js"></script>
+
+
+
+<script>
+$(function() { // voer functie uit zodra DOM klaar is
+   $( "#accordion" ).accordion(); // de accordion functie van jQuery UI
+});
+
+
+</script>
+</body>
+</html>
