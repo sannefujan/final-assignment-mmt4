@@ -1,0 +1,465 @@
+.clear{
+    clear: both;
+}
+
+body{
+    color: rgb(204, 0, 133);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url(../img/hero@2x.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav{
+    position: fixed;
+    left: 5%;
+    background: white;
+    width: 90%;
+    height: 100px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;  
+    z-index: 999999999;
+}
+
+img{
+    position: relative;
+    float: left;
+    left: 6%;
+    top: 15px;
+    max-width: 5%;  
+}
+
+li a{
+    position: relative;
+    float: left;
+    left: 23%;
+    padding: 40px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: bold;
+    color: rgb(204, 0, 133);
+}
+
+#theme img{
+   float: left;
+   margin-left: 35%;
+   margin-top: 20px;
+}
+
+
+#begin{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 150px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+#begin h1{
+    font-size: 3em;
+    line-height: 65px;
+    margin-bottom: 1em;
+}
+
+#inleiding{
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 3px;
+    line-height: 20px;
+}
+
+#blok{
+    position: absolute;
+    margin-top: 450px;
+    left: 16%;
+    width: 70%;
+}
+
+.leer{
+    float: left;
+    margin: 20px;
+    width: 29%;
+    height: 300px;
+    background: rgb(244, 242, 255);
+    border-radius: 10px;
+}
+
+.leer img{
+    left: 30%;
+    top: 60px;
+    max-width: 40%;
+    height: 145px;
+}
+
+.blok-text{
+    position: relative;
+    top: 250px;
+    margin-left: 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(204, 0, 133);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: .9em;
+}
+
+main h2{
+    margin-top: -3em;
+    float: left;
+    margin-left: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+
+#accordion{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 1px solid rgb(204, 0, 133); 
+    line-height: 50px;
+}
+
+/*video*/
+.video-js{
+   width: 100%;
+   height: 350px;
+  margin-top: -0px;
+}
+
+.btn{
+  position: relative;
+  top: 150px;
+  left: 33%;
+  z-index: 99999;
+}
+
+.accordion:hover a .btn-img{
+    display: inline-block;
+   
+}
+a #playbtn{
+    height: 75px;
+    margin-top: -35px;
+}
+a .btn-img{
+    max-width: 100%;
+   margin-top: -25px;
+   padding: 10px;
+   height: 50px;
+   display: none;
+}
+
+
+#support{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    float: left;
+    margin-left: 15%;
+}
+
+#studenten{
+    float: left;
+    width: 50%;
+   margin-top: 2em;
+    font-weight: bold;
+    line-height: 20px;
+}
+ 
+ 
+#calltoaction{
+    clear: both;
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 10%;
+    width: 15%;
+    height: 45px;
+    background-color: rgb(204, 0, 133);
+    border-radius: 10px;
+}
+#calltoaction:hover{
+    background: rgba(204, 0, 133, 0.863);
+}
+ 
+#contact{
+    color: white;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#team{
+    position: absolute;
+    margin-top: 250px;
+    width: 87%;
+    margin-left: 13%;
+    height: 200px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+.achtergrond{
+    margin: 20px;
+    background: rgb(244, 242, 255);
+    width: 33%;
+    height: 200px;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.achtergrond img{
+    width: 40%;
+    height: 150px;
+    max-width: 100%;
+    border-radius: 400px;
+}
+
+.naam{
+    margin-top: 50px;
+    margin-left: 55%;
+    font-size: .9em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2em;
+}
+
+.supporter{
+    margin-left: 55%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 175, 227);
+    font-size: .8em;
+    margin-bottom: 2em;
+}
+
+.klik{
+    display: inline-block;
+    margin-left: 15%;
+    background: rgb(204, 0, 133);
+    width: 20%;
+    height: 25px;
+    border-radius: 7px;
+}
+
+.klik:hover{
+    background: rgba(204, 0, 133, 0.863);
+}
+
+.klik a{
+    position: relative;
+    top: 5px;
+    margin-left: 30%;
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer{
+    background-image: url(../img/footer-hero@2x.jpg);
+   position: relative;
+   top: 600px;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#footer{
+    position: absolute;
+    top: 75px;
+    left: 35%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+#footer h5{
+    line-height: 1.5em;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+#footer-text{
+    margin-top: 50px;
+    font-size: .9em;
+}
+
+#footer-klik{
+    display: inline-block;
+    margin-top: 35px;
+    background: white;
+    width: 50%;
+    height: 50px;
+    border-radius: 7px;
+}
+#footer-klik:hover{
+    background: rgba(255, 255, 255, 0.863);
+}
+
+#kom{
+    position: relative;
+    top: .75em;
+    text-decoration: none;
+    color: rgb(204, 0, 133);
+    font-size: 1.25em;
+}
+
+
+/*responsive*/
+@media screen and (max-width: 1400px){
+    #blok{width: 75%;}
+}
+
+@media screen and (max-width: 1000px){
+    #accordion{margin-top: 700px;}
+    #theme img{margin-top: -70px; margin-left: 80%;}
+}
+
+
+@media screen and (max-width: 850px){
+    #accordion{margin-top: 700px;}
+    #theme img {margin-top: -70px;margin-left: 85%;} 
+    #blok{margin-top: 525px;}
+}
+
+@media screen and (max-width: 700px){
+    body{width: 100%;} 
+    #accordion{margin-top: 600px;} 
+    #theme img {margin-top: -70px; margin-left: 85%;} 
+    #blok{margin-top: 600px;} 
+    header{height: 800px;} 
+    .achtergrond{  width: 50%;}
+    #footer{margin-left: -20%;}
+    #begin{margin-left: 10%;}
+}
+
+@media screen and (max-width: 500px){
+    body{ width: 100%;} 
+    #logo{max-width: 50%; height: 40px;}
+    li a{margin-left: -2%; padding: 40px;}
+    #theme img {max-width: 100%; height: 30px; margin-top: 25px; margin-left: -10%;} 
+    #blok{ margin-top: 600px;} 
+    header{ height: 800px;} 
+    .achtergrond{  width: 100%;} 
+    .leer{width: 50%;}
+    #calltoaction{width: 30%;} 
+    li a{ padding: 10px;} 
+    #footer{ margin-left: -35%;}
+    #accordion{width: 100%; margin-left: -0%; margin-top: 950px;}
+    .btn{left: 17%;}
+
+}
+
+@media screen and (max-width: 414px){
+     nav{width: 100%; left: 0%;}
+     li a{padding: 50px; margin-left: -20%; margin-top: -25px;}
+     #theme img{max-width: 100%; height: 30px; margin-top: -50px;}
+     #logo{max-width: 50%; height: 40px;}
+     header{height: 950px;}
+     #blok{margin-top: 825px;}
+     .leer{width: 50%;} 
+     #accordion{margin-top: 950px; width: 100%; margin-left: -0%;}
+     .btn{left: 17%;}
+     .achtergrond{width: 100%;}
+     #footer{margin-top: -50px;}
+     
+}
+
+
+/*darkmode*/
+.dark{ 
+    background-color: black; 
+    color: white; } 
+.dark a{
+    color: white;} 
+.dark #kom{
+    color: white;}
+.dark header{
+    background-image: url(../img/headerdark@2x.jpg);}
+.dark footer{
+    background-image: url(../img/herodark@2x.jpg);}
+.dark nav {
+    background-color: rgb(29, 0, 255);}
+.dark .leer{
+    background-color: rgb(29, 0, 255);}
+.dark .achtergrond{
+    background-color: rgb(29, 0, 255);}
+.dark #footer-klik{
+    background-color: rgb(29, 0, 255);}
+    .dark #footer-klik:hover{
+        background-color: rgba(30, 0, 255, 0.719);}
+.dark #calltoaction{
+    background-color: rgb(29, 0, 255);}
+    .dark #calltoaction:hover{
+        background-color: rgb(30, 0, 255, 0.719);}
+.dark #accordion{
+    border: 1px solid rgb(29, 0, 255);}
+.dark .klik {
+    background-color: rgb(0, 118, 255);  }
+.dark .klik:hover{
+        background-color: rgba(0, 119, 255, 0.719); }
+.dark .supporter{
+   color: rgb(0, 118, 255); }
+.dark #blok img{
+ filter: grayscale(900%) brightness(300%);}
+.dark #logo{
+    filter: grayscale(900%) brightness(300%);  }
+.dark a .btn-img{
+    filter:  sepia(100%) contrast(200%) hue-rotate(200deg) brightness(100%); }
+.dark #theme{
+    filter:  sepia(100%) contrast(200%) hue-rotate(200deg) brightness(100%);}
+
+
+
+/*modal-dialog animation*/
+.vjs-my-fancy-modal{
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+    
+  
